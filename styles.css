@@ -1,0 +1,198 @@
+li{
+    display: flex;
+    float: left;
+    padding: 20px 20px;
+    text-align: right;
+    color: white;
+}
+#logo{
+    position: relative;
+    text-decoration: none;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+.menu{
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+body{
+    background-image: url(/pictures/IMG-20230616-WA0034.jpg);
+    background-size:cover;
+    color: white;
+}
+.index{
+    height: 600px;
+}
+.container{
+    background-color:black;
+    color: white;
+    display: flex;
+    gap: 45%;
+    border-radius: 8px;
+    align-items:baseline;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    position: fixed;
+    z-index: 222;
+    top: 0;
+}
+img{
+    border-radius: 50%;
+    height: 4cm;
+}
+.whole{
+    display: flex;
+    gap: 4cm;
+    font-size: large;
+
+}
+.founder{
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.contacts{
+    justify-content: center;
+    text-align: center;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.image{
+    border-radius: 10px;
+    width: 100%;
+     height: 250px;
+}
+.title{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.description{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.gal{
+    width: 200px;
+    margin: 6px;
+    text-align: center;
+    width: calc(25% - 20px);
+}
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 8px;
+}
+.index{
+    margin-top: 100px;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 30px;
+}
+.foot{
+    display: flex;
+    padding: 1px 1px ;  
+    justify-content: center;
+    font-size: medium;
+    font-weight: bold;
+}
+.contact{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+    font-size: medium;
+}
+.qlinks a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.qlinks a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer{
+    margin: 0px; 
+    border-top: 2px solid rgb(92, 39, 2);
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+}
+.rights{
+    font-size: larger;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.head{
+    display: flex;
+    gap: 40%;
+}
+.form{
+    text-align: left;
+    height: 460px;
+    width: 500px;
+    border: 3px solid black;
+    margin: 20px 20px;
+    padding: auto;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+.h1{
+    text-align: center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+    text-align: center;
+    background-color: bisque;
+    color: #000;
+    font-size: medium;
+}
+.in{
+    display: table-row;
+    font-size: 50px;
+}
+input{
+    border-radius: 5px;
+    background-color:bisque;
+    color: #000;
+    font-size: medium;
+}
+label{
+    padding: 20px;
+    text-align: left;
+    font-size:large;
+}
+button{
+    font-size:large;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: x-large;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.send{
+    margin-left: 200px;
+}
