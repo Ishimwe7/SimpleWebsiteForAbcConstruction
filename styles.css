@@ -5,12 +5,12 @@ li{
     text-align: right;
     color: white;
 }
-/*#logo{
+.logo{
     position: relative;
     text-decoration: none;
     margin-top: 30px;
     font-family: 'Times New Roman', Times, serif;
-} */
+} 
 a{
     text-decoration: none;
     color: white;
