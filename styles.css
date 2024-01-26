@@ -19,7 +19,6 @@ a{
     font-size: x-large;
 }
 .menu{
-    background-color: black;
     margin-left: 30px;
     margin-top: 30px;
 }
@@ -33,9 +32,8 @@ body{
 }
 .container{
     background-color:black;
-    color: white;
     display: flex;
-    gap: 55%;
+    gap: 46%;
     border-radius: 8px;
     align-items:baseline;
     width: 100%;
@@ -210,4 +208,31 @@ button:hover{
     height: 100px;
     width: 100px;
     margin-left: 10px;
+}
+.hidden{
+    border: 2px solid transparent;
+    height: 220px;
+    width: 200px;
+    position: relative;
+    background-color: white;
+    color: black;
+    top: 0px;
+    margin-left: 500px;
+    border-radius: 10px;
+    float: right;
+    visibility: hidden;
+    margin-bottom: 100px;
+}
+.hidden li{
+    padding: 20px 20px;
+    text-align:left;
+    color: white;
+    display: block;
+}
+table,tr,th{
+    border-collapse: collapse;
+    font-size: larger;
+}
+table{
+    margin-left: 300px;
 }
